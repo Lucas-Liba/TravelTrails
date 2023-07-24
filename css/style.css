@@ -43,6 +43,10 @@ nav{
     margin-left: 2.5rem;
     margin-bottom: 0.8rem;
     justify-self: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 2rem;
 }
 
 li{
@@ -178,6 +182,25 @@ button {
     outline: none;
 }
 
+
+
+svg{
+    cursor: pointer;
+}
+
+
+html{
+    background-image: url(../assets/Images/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    background-color: #159895;
+    box-sizing: border-box;
+
+}
+
+
 @media (min-width: 768px){
     .galeria{
         grid-template-columns: repeat(2, 20rem); 
@@ -193,10 +216,6 @@ button {
         padding: 0.2rem;
     
     } 
-
-    nav{
-        padding-left: 27rem;
-    }
 
     footer{
         gap: 7rem;
@@ -215,9 +234,6 @@ button {
 
 @media (min-width: 1024px){
 
-    nav{
-        margin-left: 20rem;
-    }
 
     .galeria{
         display: grid;
@@ -254,20 +270,35 @@ button {
         font-size: 1.5rem;
     }
 
+
+
+    label{
+        font-size: 1.5rem;
+    }
+
+    .testimonios{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonioItem{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .testimonios h3{
+        width:40rem;
+    }
+    
 }
 
-svg{
-    cursor: pointer;
+@media (min-width: 1440px){
+
+    .testimonios h3{
+        width:70rem;
+    }
+
+
 }
 
 
-html{
-    background-image: url(../assets/Images/texture.jpg);
-    background-size: cover;
-    background-position: center;
-    /* filter: blur(10px); */
-    backdrop-filter: blur(10px);
-    background-color: #159895;
-    box-sizing: border-box;
-
-}
