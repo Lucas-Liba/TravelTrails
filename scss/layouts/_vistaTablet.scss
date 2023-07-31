@@ -1,0 +1,33 @@
+@media (min-width: 768px){
+    .galeria{
+        grid-template-columns: repeat(2, 20rem); 
+        grid-template-rows: repeat(5, 20rem); 
+        grid-gap: 2px; 
+
+        img{
+            width: 20rem;
+            height: 20rem;
+            border-radius:25px;
+            padding: 0.2rem;
+        }
+    }
+
+
+    nav{
+        padding-left: 27rem;
+    }
+
+    footer{
+        gap: 7rem;
+    }
+
+    .CardContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 20rem); 
+        grid-template-rows: repeat(3, 24rem);
+        align-items: center;
+        justify-content: center;
+        row-gap: 2rem;
+    }
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "preentrega-scss",
+  "version": "1.0.0",
+  "description": "* Las paginas resposive son el inicio, destinos, y programas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

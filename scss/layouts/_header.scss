@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    background-color:$ColorPrincipal;
+    align-items: center;
+    border-bottom: 1px solid black;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    
+    h1{
+        font-size: 2rem;
+        font-family: 'Archivo', sans-serif; 
+    }
+
+    nav{
+        margin-left: 2.5rem;
+        margin-bottom: 0.8rem;
+        justify-self: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 2rem;
+    }
+    
+}

@@ -1,0 +1,52 @@
+@media (min-width: 1024px){
+
+
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(5, 12.5rem); 
+        grid-template-rows: repeat(2, 12.5rem); 
+        grid-gap:4px; 
+        justify-items: center;
+        align-items: center;
+        margin: 0.4rem;
+
+        img{
+            width: 12.5rem;
+            height: 12.5rem;
+            border-radius: 50px;
+            padding: 0.4rem;
+        }
+    }
+    
+    h2{
+        font-size: 3.75rem;
+
+    }
+    li{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 3rem;
+    }
+
+    .card h3{
+        font-size: 1.5rem;
+    }
+
+    label{
+        font-size: 1.5rem;
+    }
+    .testimonios{
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            width:40rem;
+        }
+    }
+    .testimonioItem{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+}

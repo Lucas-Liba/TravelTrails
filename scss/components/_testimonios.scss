@@ -1,0 +1,36 @@
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+
+    h3{
+        background-color: #1a5f7ac2;
+        padding-bottom: 1rem;
+        margin-bottom: 0px;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    p{
+        background-color:aliceblue ;
+        padding-bottom:3rem ;
+        margin-top: 0px;
+        color: black;
+    }
+}
+
+.testimonioItem{
+    display: flex;
+
+    img{
+        width: 3rem;
+        height: 2.8rem;
+    }
+}
+
+
+
+
+
+

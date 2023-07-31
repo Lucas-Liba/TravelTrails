@@ -13,7 +13,8 @@ html {
   background-size: cover;
   background-position: center;
   /* filter: blur(10px); */
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   background-color: #159895;
   box-sizing: border-box;
 }
@@ -73,7 +74,9 @@ footer img {
   width: 14.375rem;
   height: 15.6865rem;
   border-radius: 5px;
+  max-width: -moz-fit-content;
   max-width: fit-content;
+  max-height: -moz-fit-content;
   max-height: fit-content;
 }
 .card p, .card h3 {
@@ -228,6 +231,4 @@ svg {
   .testimonios h3 {
     width: 70rem;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

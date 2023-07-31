@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'DM Sans',sans-serif;
+    background-color: $ColorDeFondo;
+    color: white;
+}
+
+
+html{
+    background-image: url(../assets/Images/texture.jpg);
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(10px); */
+    backdrop-filter: blur(10px);
+    background-color: #159895;
+    box-sizing: border-box;
+
+}

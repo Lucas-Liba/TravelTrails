@@ -1,0 +1,16 @@
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 10rem); 
+    grid-template-rows: repeat(5, 10rem); 
+    grid-gap: 0px; 
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 10rem;
+        height: 10rem;
+        border-radius:25px;
+        padding: 0.2rem;
+    }
+
+}

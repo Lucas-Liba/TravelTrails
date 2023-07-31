@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Archivo+Black&family=DM+Sans&display=swap');
+@import "utilities/variables";
+@import "utilities/mixins";
+
+@import "layouts/background";
+@import "layouts/header";
+@import "layouts/footer";
+@import "components/card";
+@import "components/testimonios";
+@import "components/fotos";
+@import "components/menuHamburguesa";
+h2{
+    text-align:center;
+}
+h3{
+    text-align: center;
+}
+li{
+    padding-bottom: 0.7rem;
+}
+.servicios{
+    font-size: 1rem;
+}
+svg{
+    cursor: pointer;
+}
+@import "layouts/vistaTablet";
+@import "layouts/vistaPc";
+@import "layouts/vista1440px";
+
+
