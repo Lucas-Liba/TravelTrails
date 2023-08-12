@@ -134,6 +134,15 @@ button {
   outline: none;
 }
 
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+.formularioContacto h2 {
+  align-self: center;
+}
+
 h2 {
   text-align: center;
 }
